@@ -1,21 +1,24 @@
 header {
 	background: #ffffff;
 	border-bottom-style: solid;
+	border-width: 2px;
 	border-color: #cccccc;
+
 	}
 
 footer {
 	background-color: #666666;
 	position: relative;
-	margin-top: 100px;
-	height: 94px;
-	bottom: 0;
+	/*margin-top: 100px;*/
+	height: 95px;
+	/*bottom: 0;*/
 	width:100%;
 	border-top-style: solid;
 	border-color: #4aaaa5;
 	border-width: 10px;
 	font-size: 12px;
 	color:#b9beb0;
+
 	}
 
 .namecontainer {
@@ -34,10 +37,18 @@ h1 {
 	margin-top: 0px;
 	margin-bottom: 25px;
 	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 21px;
 	margin-right: 600px;
 	padding-left: 15px;
 	position: relative;
+	display: block;
+    font-size: 2em;
+   /* -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;*/
+    
+    font-weight: bold;
 	}
 
 h2{
@@ -46,6 +57,13 @@ h2{
 	margin-top: 40px;
 	padding-left: 30px;
 	margin-bottom: 30px;
+	display: block;
+    font-size: 1.5em;
+   /* -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+*/    font-weight: bold;
 	}
 
 h3{
@@ -53,10 +71,18 @@ h3{
 	color: #4aaaa5;
 	text-align: center;
 	margin-top: 30px;
+	    display: block;
+    font-size: 1.17em;
+    /*-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;*/
+    font-weight: bold;
 	}
 
 h4 {
 	text-align:center;
+	padding-top: 35px;
 	}
 
 hr { 
@@ -113,6 +139,7 @@ nav{
 	width: 960px;
 	height: 86px;
 	position: relative;
+	margin-bottom: -4px;
 
 	}
 
